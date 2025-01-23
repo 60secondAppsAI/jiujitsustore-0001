@@ -21,10 +21,10 @@
 								                </template>
 								                <div>
 								                  <form @submit.prevent>
-								  <base-input label="ReviewId" type="text" placeholder="Enter ReviewId" v-model="reviewToAdd.reviewId"></base-input>
-								  <base-input label="Rating" type="text" placeholder="Enter Rating" v-model="reviewToAdd.rating"></base-input>
-								  <base-input label="Comment" type="text" placeholder="Enter Comment" v-model="reviewToAdd.comment"></base-input>
 								  <base-input label="ReviewDate" type="text" placeholder="Enter ReviewDate" v-model="reviewToAdd.reviewDate"></base-input>
+								  <base-input label="Comment" type="text" placeholder="Enter Comment" v-model="reviewToAdd.comment"></base-input>
+								  <base-input label="Rating" type="text" placeholder="Enter Rating" v-model="reviewToAdd.rating"></base-input>
+								  <base-input label="ReviewId" type="text" placeholder="Enter ReviewId" v-model="reviewToAdd.reviewId"></base-input>
 												                  </form>
 								                </div>
 								                <template slot="footer">

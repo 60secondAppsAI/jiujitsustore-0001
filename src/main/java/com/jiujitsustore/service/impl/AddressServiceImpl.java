@@ -131,10 +131,10 @@ public class AddressServiceImpl extends GenericServiceImpl<Address, Integer> imp
 		if (searchQuery != null && !searchQuery.isEmpty()) {
 			spec = spec.and((root, query, cb) -> cb.or(
 
-             cb.like(cb.lower(root.get("street")), "%" + searchQuery.toLowerCase() + "%") 
-             , cb.like(cb.lower(root.get("city")), "%" + searchQuery.toLowerCase() + "%") 
+             cb.like(cb.lower(root.get("postalCode")), "%" + searchQuery.toLowerCase() + "%") 
              , cb.like(cb.lower(root.get("state")), "%" + searchQuery.toLowerCase() + "%") 
-             , cb.like(cb.lower(root.get("postalCode")), "%" + searchQuery.toLowerCase() + "%") 
+             , cb.like(cb.lower(root.get("city")), "%" + searchQuery.toLowerCase() + "%") 
+             , cb.like(cb.lower(root.get("street")), "%" + searchQuery.toLowerCase() + "%") 
 		));}
 		
 		Sort sort = Sort.unsorted();

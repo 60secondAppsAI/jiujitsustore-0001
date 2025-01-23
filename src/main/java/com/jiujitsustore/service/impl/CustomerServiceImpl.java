@@ -125,9 +125,9 @@ public class CustomerServiceImpl extends GenericServiceImpl<Customer, Integer> i
 		if (searchQuery != null && !searchQuery.isEmpty()) {
 			spec = spec.and((root, query, cb) -> cb.or(
 
-             cb.like(cb.lower(root.get("name")), "%" + searchQuery.toLowerCase() + "%") 
+             cb.like(cb.lower(root.get("phoneNumber")), "%" + searchQuery.toLowerCase() + "%") 
              , cb.like(cb.lower(root.get("email")), "%" + searchQuery.toLowerCase() + "%") 
-             , cb.like(cb.lower(root.get("phoneNumber")), "%" + searchQuery.toLowerCase() + "%") 
+             , cb.like(cb.lower(root.get("name")), "%" + searchQuery.toLowerCase() + "%") 
 		));}
 		
 		Sort sort = Sort.unsorted();

@@ -21,11 +21,11 @@
 								                </template>
 								                <div>
 								                  <form @submit.prevent>
-								  <base-input label="AddressId" type="text" placeholder="Enter AddressId" v-model="addressToAdd.addressId"></base-input>
-								  <base-input label="Street" type="text" placeholder="Enter Street" v-model="addressToAdd.street"></base-input>
-								  <base-input label="City" type="text" placeholder="Enter City" v-model="addressToAdd.city"></base-input>
-								  <base-input label="State" type="text" placeholder="Enter State" v-model="addressToAdd.state"></base-input>
 								  <base-input label="PostalCode" type="text" placeholder="Enter PostalCode" v-model="addressToAdd.postalCode"></base-input>
+								  <base-input label="State" type="text" placeholder="Enter State" v-model="addressToAdd.state"></base-input>
+								  <base-input label="City" type="text" placeholder="Enter City" v-model="addressToAdd.city"></base-input>
+								  <base-input label="Street" type="text" placeholder="Enter Street" v-model="addressToAdd.street"></base-input>
+								  <base-input label="AddressId" type="text" placeholder="Enter AddressId" v-model="addressToAdd.addressId"></base-input>
 												                  </form>
 								                </div>
 								                <template slot="footer">

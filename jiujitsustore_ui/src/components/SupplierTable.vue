@@ -35,9 +35,9 @@
                 </template>
                 <div>
                   <form @submit.prevent>
-  <base-input label="SupplierId" type="text" placeholder="Enter SupplierId" v-model="supplierToAdd.supplierId"></base-input>
-  <base-input label="Name" type="text" placeholder="Enter Name" v-model="supplierToAdd.name"></base-input>
   <base-input label="ContactEmail" type="text" placeholder="Enter ContactEmail" v-model="supplierToAdd.contactEmail"></base-input>
+  <base-input label="Name" type="text" placeholder="Enter Name" v-model="supplierToAdd.name"></base-input>
+  <base-input label="SupplierId" type="text" placeholder="Enter SupplierId" v-model="supplierToAdd.supplierId"></base-input>
                   </form>
                 </div>
                 <template slot="footer">

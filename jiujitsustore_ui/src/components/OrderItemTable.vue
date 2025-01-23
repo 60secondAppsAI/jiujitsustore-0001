@@ -35,9 +35,9 @@
                 </template>
                 <div>
                   <form @submit.prevent>
-  <base-input label="OrderItemId" type="text" placeholder="Enter OrderItemId" v-model="orderItemToAdd.orderItemId"></base-input>
-  <base-input label="Quantity" type="text" placeholder="Enter Quantity" v-model="orderItemToAdd.quantity"></base-input>
   <base-input label="Price" type="text" placeholder="Enter Price" v-model="orderItemToAdd.price"></base-input>
+  <base-input label="Quantity" type="text" placeholder="Enter Quantity" v-model="orderItemToAdd.quantity"></base-input>
+  <base-input label="OrderItemId" type="text" placeholder="Enter OrderItemId" v-model="orderItemToAdd.orderItemId"></base-input>
                   </form>
                 </div>
                 <template slot="footer">

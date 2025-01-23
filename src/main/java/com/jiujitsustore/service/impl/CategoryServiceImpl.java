@@ -119,8 +119,8 @@ public class CategoryServiceImpl extends GenericServiceImpl<Category, Integer> i
 		if (searchQuery != null && !searchQuery.isEmpty()) {
 			spec = spec.and((root, query, cb) -> cb.or(
 
-             cb.like(cb.lower(root.get("name")), "%" + searchQuery.toLowerCase() + "%") 
-             , cb.like(cb.lower(root.get("description")), "%" + searchQuery.toLowerCase() + "%") 
+             cb.like(cb.lower(root.get("description")), "%" + searchQuery.toLowerCase() + "%") 
+             , cb.like(cb.lower(root.get("name")), "%" + searchQuery.toLowerCase() + "%") 
 		));}
 		
 		Sort sort = Sort.unsorted();

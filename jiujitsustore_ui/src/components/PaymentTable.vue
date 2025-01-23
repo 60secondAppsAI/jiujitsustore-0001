@@ -35,9 +35,9 @@
                 </template>
                 <div>
                   <form @submit.prevent>
-  <base-input label="PaymentId" type="text" placeholder="Enter PaymentId" v-model="paymentToAdd.paymentId"></base-input>
-  <base-input label="PaymentDate" type="text" placeholder="Enter PaymentDate" v-model="paymentToAdd.paymentDate"></base-input>
   <base-input label="Amount" type="text" placeholder="Enter Amount" v-model="paymentToAdd.amount"></base-input>
+  <base-input label="PaymentDate" type="text" placeholder="Enter PaymentDate" v-model="paymentToAdd.paymentDate"></base-input>
+  <base-input label="PaymentId" type="text" placeholder="Enter PaymentId" v-model="paymentToAdd.paymentId"></base-input>
                   </form>
                 </div>
                 <template slot="footer">

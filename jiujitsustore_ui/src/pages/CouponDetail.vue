@@ -21,10 +21,10 @@
 								                </template>
 								                <div>
 								                  <form @submit.prevent>
-								  <base-input label="CouponId" type="text" placeholder="Enter CouponId" v-model="couponToAdd.couponId"></base-input>
-								  <base-input label="Code" type="text" placeholder="Enter Code" v-model="couponToAdd.code"></base-input>
-								  <base-input label="DiscountPercentage" type="text" placeholder="Enter DiscountPercentage" v-model="couponToAdd.discountPercentage"></base-input>
 								  <base-input label="ExpirationDate" type="text" placeholder="Enter ExpirationDate" v-model="couponToAdd.expirationDate"></base-input>
+								  <base-input label="DiscountPercentage" type="text" placeholder="Enter DiscountPercentage" v-model="couponToAdd.discountPercentage"></base-input>
+								  <base-input label="Code" type="text" placeholder="Enter Code" v-model="couponToAdd.code"></base-input>
+								  <base-input label="CouponId" type="text" placeholder="Enter CouponId" v-model="couponToAdd.couponId"></base-input>
 												                  </form>
 								                </div>
 								                <template slot="footer">

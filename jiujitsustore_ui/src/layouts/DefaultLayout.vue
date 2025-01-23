@@ -32,80 +32,8 @@
 	 
 			
 				<a-menu-item>
-					<router-link to="/products">
-						<span class="label">Products</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/categorys">
-						<span class="label">Categorys</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/orders">
-						<span class="label">Orders</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/customers">
-						<span class="label">Customers</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/addresss">
-						<span class="label">Addresss</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/payments">
-						<span class="label">Payments</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/orderItems">
-						<span class="label">Order Items</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/suppliers">
-						<span class="label">Suppliers</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/inventorys">
-						<span class="label">Inventorys</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/reviews">
-						<span class="label">Reviews</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/coupons">
-						<span class="label">Coupons</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/carts">
-						<span class="label">Carts</span>
-					</router-link>
-				</a-menu-item>
-		
-				<a-menu-item>
-					<router-link to="/cartItems">
-						<span class="label">Cart Items</span>
+					<router-link to="/staffs">
+						<span class="label">Staffs</span>
 					</router-link>
 				</a-menu-item>
 		
@@ -116,20 +44,38 @@
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/wishlistItems">
-						<span class="label">Wishlist Items</span>
+					<router-link to="/carts">
+						<span class="label">Carts</span>
 					</router-link>
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/shipments">
-						<span class="label">Shipments</span>
+					<router-link to="/reviews">
+						<span class="label">Reviews</span>
 					</router-link>
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/discounts">
-						<span class="label">Discounts</span>
+					<router-link to="/suppliers">
+						<span class="label">Suppliers</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/payments">
+						<span class="label">Payments</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/categorys">
+						<span class="label">Categorys</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/promotions">
+						<span class="label">Promotions</span>
 					</router-link>
 				</a-menu-item>
 		
@@ -140,14 +86,68 @@
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/staffs">
-						<span class="label">Staffs</span>
+					<router-link to="/discounts">
+						<span class="label">Discounts</span>
 					</router-link>
 				</a-menu-item>
 		
 				<a-menu-item>
-					<router-link to="/promotions">
-						<span class="label">Promotions</span>
+					<router-link to="/shipments">
+						<span class="label">Shipments</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/wishlistItems">
+						<span class="label">Wishlist Items</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/cartItems">
+						<span class="label">Cart Items</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/coupons">
+						<span class="label">Coupons</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/inventorys">
+						<span class="label">Inventorys</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/orderItems">
+						<span class="label">Order Items</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/addresss">
+						<span class="label">Addresss</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/customers">
+						<span class="label">Customers</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/orders">
+						<span class="label">Orders</span>
+					</router-link>
+				</a-menu-item>
+		
+				<a-menu-item>
+					<router-link to="/products">
+						<span class="label">Products</span>
 					</router-link>
 				</a-menu-item>
 		

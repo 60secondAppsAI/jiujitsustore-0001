@@ -21,9 +21,9 @@
 								                </template>
 								                <div>
 								                  <form @submit.prevent>
-								  <base-input label="InventoryId" type="text" placeholder="Enter InventoryId" v-model="inventoryToAdd.inventoryId"></base-input>
-								  <base-input label="Quantity" type="text" placeholder="Enter Quantity" v-model="inventoryToAdd.quantity"></base-input>
 								  <base-input label="LastUpdated" type="text" placeholder="Enter LastUpdated" v-model="inventoryToAdd.lastUpdated"></base-input>
+								  <base-input label="Quantity" type="text" placeholder="Enter Quantity" v-model="inventoryToAdd.quantity"></base-input>
+								  <base-input label="InventoryId" type="text" placeholder="Enter InventoryId" v-model="inventoryToAdd.inventoryId"></base-input>
 												                  </form>
 								                </div>
 								                <template slot="footer">
