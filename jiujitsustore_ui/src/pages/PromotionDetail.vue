@@ -21,11 +21,11 @@
 								                </template>
 								                <div>
 								                  <form @submit.prevent>
-								  <base-input label="PromotionId" type="text" placeholder="Enter PromotionId" v-model="promotionToAdd.promotionId"></base-input>
-								  <base-input label="Name" type="text" placeholder="Enter Name" v-model="promotionToAdd.name"></base-input>
-								  <base-input label="Description" type="text" placeholder="Enter Description" v-model="promotionToAdd.description"></base-input>
-								  <base-input label="StartDate" type="text" placeholder="Enter StartDate" v-model="promotionToAdd.startDate"></base-input>
 								  <base-input label="EndDate" type="text" placeholder="Enter EndDate" v-model="promotionToAdd.endDate"></base-input>
+								  <base-input label="StartDate" type="text" placeholder="Enter StartDate" v-model="promotionToAdd.startDate"></base-input>
+								  <base-input label="Description" type="text" placeholder="Enter Description" v-model="promotionToAdd.description"></base-input>
+								  <base-input label="Name" type="text" placeholder="Enter Name" v-model="promotionToAdd.name"></base-input>
+								  <base-input label="PromotionId" type="text" placeholder="Enter PromotionId" v-model="promotionToAdd.promotionId"></base-input>
 												                  </form>
 								                </div>
 								                <template slot="footer">

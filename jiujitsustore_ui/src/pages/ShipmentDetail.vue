@@ -21,9 +21,9 @@
 								                </template>
 								                <div>
 								                  <form @submit.prevent>
-								  <base-input label="ShipmentId" type="text" placeholder="Enter ShipmentId" v-model="shipmentToAdd.shipmentId"></base-input>
-								  <base-input label="ShipmentDate" type="text" placeholder="Enter ShipmentDate" v-model="shipmentToAdd.shipmentDate"></base-input>
 								  <base-input label="Carrier" type="text" placeholder="Enter Carrier" v-model="shipmentToAdd.carrier"></base-input>
+								  <base-input label="ShipmentDate" type="text" placeholder="Enter ShipmentDate" v-model="shipmentToAdd.shipmentDate"></base-input>
+								  <base-input label="ShipmentId" type="text" placeholder="Enter ShipmentId" v-model="shipmentToAdd.shipmentId"></base-input>
 												                  </form>
 								                </div>
 								                <template slot="footer">

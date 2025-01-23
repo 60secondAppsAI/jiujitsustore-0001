@@ -21,9 +21,9 @@
 								                </template>
 								                <div>
 								                  <form @submit.prevent>
-								  <base-input label="DiscountId" type="text" placeholder="Enter DiscountId" v-model="discountToAdd.discountId"></base-input>
-								  <base-input label="Percentage" type="text" placeholder="Enter Percentage" v-model="discountToAdd.percentage"></base-input>
 								  <base-input label="ValidUntil" type="text" placeholder="Enter ValidUntil" v-model="discountToAdd.validUntil"></base-input>
+								  <base-input label="Percentage" type="text" placeholder="Enter Percentage" v-model="discountToAdd.percentage"></base-input>
+								  <base-input label="DiscountId" type="text" placeholder="Enter DiscountId" v-model="discountToAdd.discountId"></base-input>
 												                  </form>
 								                </div>
 								                <template slot="footer">

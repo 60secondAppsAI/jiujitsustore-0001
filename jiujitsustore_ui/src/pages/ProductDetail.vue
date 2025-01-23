@@ -21,11 +21,11 @@
 								                </template>
 								                <div>
 								                  <form @submit.prevent>
-								  <base-input label="ProductId" type="text" placeholder="Enter ProductId" v-model="productToAdd.productId"></base-input>
 								  <base-input label="Name" type="text" placeholder="Enter Name" v-model="productToAdd.name"></base-input>
-								  <base-input label="Description" type="text" placeholder="Enter Description" v-model="productToAdd.description"></base-input>
-								  <base-input label="Price" type="text" placeholder="Enter Price" v-model="productToAdd.price"></base-input>
 								  <base-input label="Stock" type="text" placeholder="Enter Stock" v-model="productToAdd.stock"></base-input>
+								  <base-input label="Price" type="text" placeholder="Enter Price" v-model="productToAdd.price"></base-input>
+								  <base-input label="Description" type="text" placeholder="Enter Description" v-model="productToAdd.description"></base-input>
+								  <base-input label="ProductId" type="text" placeholder="Enter ProductId" v-model="productToAdd.productId"></base-input>
 												                  </form>
 								                </div>
 								                <template slot="footer">

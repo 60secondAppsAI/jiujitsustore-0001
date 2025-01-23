@@ -21,8 +21,8 @@
 								                </template>
 								                <div>
 								                  <form @submit.prevent>
-								  <base-input label="CartItemId" type="text" placeholder="Enter CartItemId" v-model="cartItemToAdd.cartItemId"></base-input>
 								  <base-input label="Quantity" type="text" placeholder="Enter Quantity" v-model="cartItemToAdd.quantity"></base-input>
+								  <base-input label="CartItemId" type="text" placeholder="Enter CartItemId" v-model="cartItemToAdd.cartItemId"></base-input>
 												                  </form>
 								                </div>
 								                <template slot="footer">

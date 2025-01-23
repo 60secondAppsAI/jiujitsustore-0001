@@ -35,9 +35,9 @@
                 </template>
                 <div>
                   <form @submit.prevent>
-  <base-input label="StaffId" type="text" placeholder="Enter StaffId" v-model="staffToAdd.staffId"></base-input>
-  <base-input label="Name" type="text" placeholder="Enter Name" v-model="staffToAdd.name"></base-input>
   <base-input label="Position" type="text" placeholder="Enter Position" v-model="staffToAdd.position"></base-input>
+  <base-input label="Name" type="text" placeholder="Enter Name" v-model="staffToAdd.name"></base-input>
+  <base-input label="StaffId" type="text" placeholder="Enter StaffId" v-model="staffToAdd.staffId"></base-input>
                   </form>
                 </div>
                 <template slot="footer">
@@ -237,65 +237,65 @@ export default {
         this.columns = this.columns.filter(item => item.visible);
     },
 
-    routingToProductDetail(id) {
-      this.$router.push({ name: 'ProductDetail', params: { productId: id.toString() }})
-    },
-    routingToCategoryDetail(id) {
-      this.$router.push({ name: 'CategoryDetail', params: { categoryId: id.toString() }})
-    },
-    routingToOrderDetail(id) {
-      this.$router.push({ name: 'OrderDetail', params: { orderId: id.toString() }})
-    },
-    routingToCustomerDetail(id) {
-      this.$router.push({ name: 'CustomerDetail', params: { customerId: id.toString() }})
-    },
-    routingToAddressDetail(id) {
-      this.$router.push({ name: 'AddressDetail', params: { addressId: id.toString() }})
-    },
-    routingToPaymentDetail(id) {
-      this.$router.push({ name: 'PaymentDetail', params: { paymentId: id.toString() }})
-    },
-    routingToOrderItemDetail(id) {
-      this.$router.push({ name: 'OrderItemDetail', params: { orderItemId: id.toString() }})
-    },
-    routingToSupplierDetail(id) {
-      this.$router.push({ name: 'SupplierDetail', params: { supplierId: id.toString() }})
-    },
-    routingToInventoryDetail(id) {
-      this.$router.push({ name: 'InventoryDetail', params: { inventoryId: id.toString() }})
-    },
-    routingToReviewDetail(id) {
-      this.$router.push({ name: 'ReviewDetail', params: { reviewId: id.toString() }})
-    },
-    routingToCouponDetail(id) {
-      this.$router.push({ name: 'CouponDetail', params: { couponId: id.toString() }})
-    },
-    routingToCartDetail(id) {
-      this.$router.push({ name: 'CartDetail', params: { cartId: id.toString() }})
-    },
-    routingToCartItemDetail(id) {
-      this.$router.push({ name: 'CartItemDetail', params: { cartItemId: id.toString() }})
+    routingToStaffDetail(id) {
+      this.$router.push({ name: 'StaffDetail', params: { staffId: id.toString() }})
     },
     routingToWishlistDetail(id) {
       this.$router.push({ name: 'WishlistDetail', params: { wishlistId: id.toString() }})
     },
-    routingToWishlistItemDetail(id) {
-      this.$router.push({ name: 'WishlistItemDetail', params: { wishlistItemId: id.toString() }})
+    routingToCartDetail(id) {
+      this.$router.push({ name: 'CartDetail', params: { cartId: id.toString() }})
     },
-    routingToShipmentDetail(id) {
-      this.$router.push({ name: 'ShipmentDetail', params: { shipmentId: id.toString() }})
+    routingToReviewDetail(id) {
+      this.$router.push({ name: 'ReviewDetail', params: { reviewId: id.toString() }})
     },
-    routingToDiscountDetail(id) {
-      this.$router.push({ name: 'DiscountDetail', params: { discountId: id.toString() }})
+    routingToSupplierDetail(id) {
+      this.$router.push({ name: 'SupplierDetail', params: { supplierId: id.toString() }})
+    },
+    routingToPaymentDetail(id) {
+      this.$router.push({ name: 'PaymentDetail', params: { paymentId: id.toString() }})
+    },
+    routingToCategoryDetail(id) {
+      this.$router.push({ name: 'CategoryDetail', params: { categoryId: id.toString() }})
+    },
+    routingToPromotionDetail(id) {
+      this.$router.push({ name: 'PromotionDetail', params: { promotionId: id.toString() }})
     },
     routingToStoreDetail(id) {
       this.$router.push({ name: 'StoreDetail', params: { storeId: id.toString() }})
     },
-    routingToStaffDetail(id) {
-      this.$router.push({ name: 'StaffDetail', params: { staffId: id.toString() }})
+    routingToDiscountDetail(id) {
+      this.$router.push({ name: 'DiscountDetail', params: { discountId: id.toString() }})
     },
-    routingToPromotionDetail(id) {
-      this.$router.push({ name: 'PromotionDetail', params: { promotionId: id.toString() }})
+    routingToShipmentDetail(id) {
+      this.$router.push({ name: 'ShipmentDetail', params: { shipmentId: id.toString() }})
+    },
+    routingToWishlistItemDetail(id) {
+      this.$router.push({ name: 'WishlistItemDetail', params: { wishlistItemId: id.toString() }})
+    },
+    routingToCartItemDetail(id) {
+      this.$router.push({ name: 'CartItemDetail', params: { cartItemId: id.toString() }})
+    },
+    routingToCouponDetail(id) {
+      this.$router.push({ name: 'CouponDetail', params: { couponId: id.toString() }})
+    },
+    routingToInventoryDetail(id) {
+      this.$router.push({ name: 'InventoryDetail', params: { inventoryId: id.toString() }})
+    },
+    routingToOrderItemDetail(id) {
+      this.$router.push({ name: 'OrderItemDetail', params: { orderItemId: id.toString() }})
+    },
+    routingToAddressDetail(id) {
+      this.$router.push({ name: 'AddressDetail', params: { addressId: id.toString() }})
+    },
+    routingToCustomerDetail(id) {
+      this.$router.push({ name: 'CustomerDetail', params: { customerId: id.toString() }})
+    },
+    routingToOrderDetail(id) {
+      this.$router.push({ name: 'OrderDetail', params: { orderId: id.toString() }})
+    },
+    routingToProductDetail(id) {
+      this.$router.push({ name: 'ProductDetail', params: { productId: id.toString() }})
     },
     
     handleSearchQueryChanged() {

@@ -119,8 +119,8 @@ public class StoreServiceImpl extends GenericServiceImpl<Store, Integer> impleme
 		if (searchQuery != null && !searchQuery.isEmpty()) {
 			spec = spec.and((root, query, cb) -> cb.or(
 
-             cb.like(cb.lower(root.get("name")), "%" + searchQuery.toLowerCase() + "%") 
-             , cb.like(cb.lower(root.get("location")), "%" + searchQuery.toLowerCase() + "%") 
+             cb.like(cb.lower(root.get("location")), "%" + searchQuery.toLowerCase() + "%") 
+             , cb.like(cb.lower(root.get("name")), "%" + searchQuery.toLowerCase() + "%") 
 		));}
 		
 		Sort sort = Sort.unsorted();

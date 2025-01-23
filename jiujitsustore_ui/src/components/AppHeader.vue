@@ -24,9 +24,9 @@
     </div>
     <div class="links">
       <nav class="nav">
-	        <router-link class="link" to="/products">My Products</router-link>
+																				        <router-link class="link" to="/products">My Products</router-link>
             
-																				        <router-link class="link" to="/sign-in">Menu-item-1</router-link>
+	        <router-link class="link" to="/sign-in">Menu-item-1</router-link>
         <router-link class="link" to="/users">Menu-item-2</router-link>
         <router-link class="link" to="/sign-in">Menu-item-3</router-link>
         <router-link class="link" to="/sign-in">Menu-item-4</router-link>

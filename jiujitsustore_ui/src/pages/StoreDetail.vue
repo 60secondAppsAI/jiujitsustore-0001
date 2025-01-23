@@ -21,9 +21,9 @@
 								                </template>
 								                <div>
 								                  <form @submit.prevent>
-								  <base-input label="StoreId" type="text" placeholder="Enter StoreId" v-model="storeToAdd.storeId"></base-input>
-								  <base-input label="Name" type="text" placeholder="Enter Name" v-model="storeToAdd.name"></base-input>
 								  <base-input label="Location" type="text" placeholder="Enter Location" v-model="storeToAdd.location"></base-input>
+								  <base-input label="Name" type="text" placeholder="Enter Name" v-model="storeToAdd.name"></base-input>
+								  <base-input label="StoreId" type="text" placeholder="Enter StoreId" v-model="storeToAdd.storeId"></base-input>
 												                  </form>
 								                </div>
 								                <template slot="footer">
